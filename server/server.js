@@ -23,7 +23,7 @@ const con = mysql.createConnection({
     host: "localhost",
     user: "root",
     password: "",
-    database: "signup"
+    database: "employee_signup"
 })
 
 const storage = multer.diskStorage({
